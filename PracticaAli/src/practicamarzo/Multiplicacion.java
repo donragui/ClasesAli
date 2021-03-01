@@ -37,22 +37,22 @@ public class Multiplicacion {
 		// devolvemos el número introducido
 		return numeroDevuelto;
 	}
-	
-	
-	/*MÉTODO QUE IMPRIME LA TABLA DE MULTIPLICAR 
-	 * DEL NÚMERO QUE SE LE PASA POR PARÁMETRO
+
+	/*
+	 * MÉTODO QUE IMPRIME LA TABLA DE MULTIPLICAR DEL NÚMERO QUE SE LE PASA POR
+	 * PARÁMETRO
 	 */
 	public static void Tabla(int numero) {
 		System.out.println("\nLa tabla de multiplicar del " + numero + " es: ");
-		for(int i = 0; i<=10; i++) {
-			System.out.println(numero + "x" + i + " = " + numero*i);
+		for (int i = 0; i <= 10; i++) {
+			System.out.println(numero + "x" + i + " = " + numero * i);
 		}
 	}
-	
+
 	public static void main(String[] args) {
-		//pedimos un número por pantalla
+		// pedimos un número por pantalla
 		int numero = pedirNumero();
-		//lo multiplicamos
+		// lo multiplicamos
 		Tabla(numero);
 	}
 
